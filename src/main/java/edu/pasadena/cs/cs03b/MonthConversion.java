@@ -42,6 +42,14 @@ public class MonthConversion {
                 monthString = "April";
                 break;
             case 5:
+                monthString = "May";
+                break;
+            case 6:
+                monthString = "June";
+                break;
+            case 7:
+                monthString = "July";
+                break;
                 
             // TODO: Add the rest of the months here
             // TODO: add a default case to output "No Such Month"

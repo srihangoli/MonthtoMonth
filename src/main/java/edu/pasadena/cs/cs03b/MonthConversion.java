@@ -1,9 +1,9 @@
 package edu.pasadena.cs.cs03b;
-
+import java.util.Scanner;
 public class MonthConversion {
 
     public static void main(String[] args) {
-        int month = 0;
+        Scanner month = new Scanner(System.in);
         // TODO: allow user to input the month        
         String strMonth = MonthConversion.convertMonthWithSwitch(month);
         System.out.println("The month is " + strMonth);
@@ -35,9 +35,14 @@ public class MonthConversion {
                 monthString = "January";
                 break;
             case 2:  monthString = "February";
-            // TODO: what is missing here
+                     break;    
             case 3:  monthString = "March";
                      break;
+            case 4:
+                monthString = "April";
+                break;
+            case 5:
+                
             // TODO: Add the rest of the months here
             // TODO: add a default case to output "No Such Month"
         }
